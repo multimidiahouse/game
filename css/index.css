@@ -1,0 +1,41 @@
+/* CSS Document */
+html { height:100%; }
+body { 
+	height:100%; 
+	margin:0; 
+	padding:0; 
+}
+#canvas {
+	width:100%;
+	height:100%;
+	background-color:#000;
+	background-image:url("../img/cenario.png");
+}
+	#pontos {
+		position:absolute;
+		padding:2.5%;
+		width:2.5%;
+		height:2.5%;
+		color:white;
+		font:Arial 1.5em;
+	}
+	#bloco {
+		position:absolute;
+		width:10%;
+		height:10%;
+		left:20%;
+		top:50%;
+	}
+	#bloco img {
+		width:*;
+		height:200px;
+	}
+	
+	.caixa {
+		position:absolute;
+		top:45%;
+		left:80%;
+		width:30px;
+		height:30px;
+		background-color:#FFF;
+	}
